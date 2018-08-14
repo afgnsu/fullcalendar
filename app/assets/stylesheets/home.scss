@@ -1,0 +1,32 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  margin: 40px 10px;
+  padding: 0;
+  font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 14px;
+}
+
+.calendar {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+th, #fc-day-header {
+ background-color: #CCC;
+}
+
+td .fc-day.fc-sun {
+  background-color: #FFE8E8;
+}
+
+td .fc-day.fc-sat {
+  /* background-color: #D5C6FF; */
+  background-color: #E8E8FF;
+}
+
+.fc-day-grid-event .fc-content {
+   white-space: normal;
+}
